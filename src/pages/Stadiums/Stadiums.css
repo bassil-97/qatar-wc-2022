@@ -1,0 +1,81 @@
+.wc-stadiums__container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #eeeee2;
+    color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wc-stadiums__header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 30vh;
+    padding: 1rem 4rem;
+    background-color: var(--primary-color);
+    background: url('../../assets/matches-bg.jpg') no-repeat;
+    background-size: cover;
+}
+
+.wc-staduims__list {
+    width: 100%;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wc-staduim__item {
+    width: 100%;
+    min-height: 10rem;
+    padding: 2rem .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.wc-staduim__item:not(:last-child) {
+    border-bottom: 1px solid var(--primary-color);
+}
+
+.row-reverse {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row-reverse !important;
+}
+
+.wc-stadium-img {
+    width: 700px;
+    height: 700px;
+}
+
+.stadium-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+    color: white;
+    background-color: var(--primary-color);
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    height: 100%;
+}
+
+.stadium-info :is(h4, h6) {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+@media screen and (max-width: 992px) {
+    .wc-staduim__item {
+        padding-top: 4rem;
+    }
+}

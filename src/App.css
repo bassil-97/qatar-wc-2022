@@ -1,38 +1,41 @@
+:root {
+    --primary-color: #761934;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Global Styles */
+
+.primary-btn {
+    padding: .5rem 1.8rem;
+    background-color: white;
+    color: var(--primary-color);
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    font-weight: bold;
+    font-size: .9em;
+    transition: .8s;
+}
+
+.primary-btn:hover {
+    background-color: var(--primary-color);
+    color: white;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    transition-duration: .8s;
+}
+
 .App {
-  text-align: center;
+    width: 100%;
+    min-height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.stadiums-font {
+    font-family: 'Qatar2022 Arabic', sans-serif;
 }

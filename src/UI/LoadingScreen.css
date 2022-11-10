@@ -1,0 +1,6 @@
+.loading-screen__container {
+    width: 100%;
+    min-height: 100vh;
+    background: url('../assets/FIFA\ World\ Cup\ -\ Qatar\ 2022\ Logo.jpg') center;
+    background-size: cover;
+}

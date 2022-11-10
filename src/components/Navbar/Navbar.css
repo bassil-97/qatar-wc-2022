@@ -1,0 +1,15 @@
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.nav-item {
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+:is(.nav-item .nav-link, .nav-item .nav-link.active) {
+    color: white;
+}

@@ -1,0 +1,74 @@
+[
+    {
+        "id": "1",
+        "name": "Al Bayt Stadium",
+        "title": "Enjoy the warmest of Arab welcomes",
+        "description": "Host of the Opening Match of the FIFA World Cup Qatar 2022™",
+        "capacity": "60000",
+        "location": "Al Khor City, 35km north of central Doha",
+        "image": "../assets/stadiums/al-bayt-transparent.png"
+    },
+    {
+        "id": "2",
+        "name": "Lusail Stadium",
+        "title": "Alive with heritage, an icon for the future",
+        "description": "Host of the Opening Match of the FIFA World Cup Qatar 2022™",
+        "capacity": "80000",
+        "location": "Lusail City, 20km north of central Doha",
+        "image": "../assets/stadiums/lusail-transparent.png"
+    },
+    {
+        "id": "3",
+        "name": "Ahmad Bin Ali Stadium",
+        "title": "Where desert stories unfold",
+        "description": "Host of the FIFA World Cup Qatar 2022™ Final Match",
+        "capacity": "40000",
+        "location": "Umm Al Afaei, 20km west of central Doha",
+        "image": "../assets/stadiums/ahmad-transparent.png"
+    },
+    {
+        "id": "4",
+        "name": "Al Janoub Stadium",
+        "title": "See football sail into a new era",
+        "description": "Host of the FIFA World Cup Qatar 2022™ Final Match",
+        "capacity": "40000",
+        "location": "Al Wakrah, 22km east of central Doha",
+        "image": "../assets/stadiums/al-janoub-transparent.png"
+    },
+    {
+        "id": "5",
+        "name": "Al Thumama Stadium",
+        "title": "A venue steeped in culture and tradition",
+        "description": "Host of the FIFA World Cup Qatar 2022™ Final Match",
+        "capacity": "40000",
+        "location": "Al Thumama, 12km south of central Doha",
+        "image": "../assets/stadiums/al-thumana-transparent.png"
+    },
+    {
+        "id": "6",
+        "name": "Education City Stadium",
+        "title": "A shimmering jewel of inspiration",
+        "description": "Host of the FIFA World Cup Qatar 2022™ Final Match",
+        "capacity": "40000",
+        "location": "Al Rayyan, 13km north-west of central Doha",
+        "image": "../assets/stadiums/education-transparent.png"
+    },
+    {
+        "id": "7",
+        "name": "Khalifa International Stadium",
+        "title": "A sporting legend re-energised",
+        "description": "Host of the FIFA World Cup Qatar 2022™ Final Match",
+        "capacity": "40000",
+        "location": "Aspire, 5km west of central Doha",
+        "image": "../assets/stadiums/khalifa-transparent.png"
+    },
+    {
+        "id": "8",
+        "name": "Stadium 974",
+        "title": "Innovation at the heart of it all",
+        "description": "Host of the FIFA World Cup Qatar 2022™ Final Match",
+        "capacity": "40000",
+        "location": "Ras Abu Aboud, 10km east of central Doha",
+        "image": "../assets/stadiums/974-transparent.png"
+    }
+]

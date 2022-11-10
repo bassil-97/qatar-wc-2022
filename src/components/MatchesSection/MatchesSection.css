@@ -1,0 +1,44 @@
+.wc-matches__section {
+    width: 30rem;
+    padding: 2rem;
+    color: white;
+}
+
+.matches-section__header {
+    width: 100%;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 6% 94% 8% 92% / 100% 1% 99% 0% ;
+    color: var(--primary-color);
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.match-teams {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.match-teams > * {
+    flex: 1;
+    text-align: center;
+}
+
+.match-teams > h6 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.match-teams .match-flag {
+    width: 35px;
+    height: 25px;
+    border-radius: 4px;
+}
+
+.match-details h6 {
+    font-family: 'Poppins', sans-serif; 
+    text-transform: capitalize 
+}

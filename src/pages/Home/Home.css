@@ -1,0 +1,81 @@
+.home-page__container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--primary-color);
+    /* background: url('../../assets/matches-bg.png') center no-repeat;
+    background-size: cover; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-page__content {
+    position: relative;
+    outline: 3px solid lightgray;
+    width: 70%;
+    min-height: 80vh;
+    background: url('../../assets/FIFA\ World\ Cup\ Poster\ -\ 2.png') center;
+    background-size: cover;
+    border-radius: 20px;
+    padding: 1.5rem 1rem;
+}
+
+.wc-logo {
+    position: absolute;
+    top: -70px;
+    left: 100px;
+    width: 120px;
+    height: 170px;
+}
+
+.home-page__text {
+    padding-left: 2.5rem;
+    color: white;
+}
+
+.home-page__text h1 {
+    font-weight: bold;
+    font-size: 4.3rem;
+}
+
+.mascot {
+    width: 500px;
+    height: 500px;
+    z-index: 99;
+}
+
+.home-page_footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem;
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.home-page_footer h1 {
+    color: var(--primary-color);
+}
+
+@media screen and (max-width: 992px) {
+
+    .home-page__content {
+        text-align: center;
+    }
+
+    .home-page__text h1 {
+        font-weight: bold;
+        font-size: 3rem;
+    }
+
+    .wc-logo {
+        display: none;
+    }
+
+    .mascot {
+        width: 250px;
+        height: 250px;
+    }
+}

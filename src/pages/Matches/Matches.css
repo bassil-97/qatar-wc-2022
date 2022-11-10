@@ -1,0 +1,13 @@
+.wc-matches__container {
+    width: 100%;
+    min-height: 100vh;
+    background: url('../../assets/matches-bg.jpg') center no-repeat;
+    background-size: cover;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 2rem;
+}

@@ -15,7 +15,7 @@
     flex-direction: column;
     background-color: #F4F6F7;
     border-radius: 36% 0% 19% 23% / 23% 30% 29% 10% ;
-    outline: 2px solid var(--primary-color);
+    border: 2px solid var(--primary-color);
 }
 
 .group-list__item h3 {

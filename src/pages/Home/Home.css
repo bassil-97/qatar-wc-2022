@@ -11,7 +11,7 @@
 
 .home-page__content {
     position: relative;
-    outline: 3px solid lightgray;
+    border: 3px solid lightgray;
     width: 70%;
     min-height: 80vh;
     background: url('../../assets/FIFA\ World\ Cup\ Poster\ -\ 2.png') center;

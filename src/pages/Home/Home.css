@@ -63,6 +63,13 @@
 
     .home-page__content {
         text-align: center;
+        width: 90%;
+        min-height: 90vh;
+    }
+
+    .home-page__text {
+        margin-top: 20px;
+        padding: 0;
     }
 
     .home-page__text h1 {
@@ -75,7 +82,14 @@
     }
 
     .mascot {
-        width: 250px;
-        height: 250px;
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    .home-page__text h1 {
+        font-weight: bold;
+        font-size: 1.8rem;
     }
 }

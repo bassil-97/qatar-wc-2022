@@ -50,3 +50,13 @@
     top: 35px;
     color: var(--primary-color);
 }
+
+@media screen and (max-width: 768px) {
+    .countdown__contianer {
+        gap: 10px;
+    }
+
+    .countdown__item:not(:last-child)::after {
+        display: none;
+    }
+}

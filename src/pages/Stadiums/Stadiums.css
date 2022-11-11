@@ -78,4 +78,8 @@
     .wc-staduim__item {
         padding-top: 4rem;
     }
+
+    .wc-stadium-img {
+        height: 400px;
+    }
 }

@@ -37,7 +37,7 @@ export default function Stadiums() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6" data-aos="zoom-in">
+            <div className="col-lg-6 p-0" data-aos="zoom-in">
               <img
                 src={el.image}
                 className="wc-stadium-img img-fluid"

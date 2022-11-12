@@ -100,18 +100,24 @@
         width: 300px;
         height: 300px;
     }
+
 }
 
 @media screen and (max-width: 576px) {
+
+    .home-page__container {
+        padding: 2rem 0px;
+    }
+
     .mascot {
         position: relative;
         width: 300px;
-        height: 300px;
+        height: 250px;
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 375px) {
     .mascot {
-       display: none;
+        display: none;
     }
 }

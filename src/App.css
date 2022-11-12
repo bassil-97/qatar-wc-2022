@@ -8,6 +8,10 @@
     font-family: 'Raleway', sans-serif;
 }
 
+:is(h1, h2) {
+    font-family: 'Qatar2022 Arabic', sans-serif;
+}
+
 /* Global Styles */
 
 .primary-btn {
@@ -38,4 +42,8 @@
 
 .stadiums-font {
     font-family: 'Qatar2022 Arabic', sans-serif;
+}
+
+.section-title {
+    color: var(--primary-color);
 }

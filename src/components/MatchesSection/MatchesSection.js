@@ -9,8 +9,8 @@ export default function MatchesSection({ data }) {
       <div className="matches-section__header">
         <h6 className="mb-0 fw-bold text-uppercase">Group {group}</h6>
       </div>
-      {data.map((el) => (
-        <div className="mb-4" key={el._id}>
+      {data.map((el, index) => (
+        <div className="mb-4" key={index}>
           <div className="match-teams">
             <h6>
               <img

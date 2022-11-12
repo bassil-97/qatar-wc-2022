@@ -1,0 +1,62 @@
+.wc-vision__container {
+    width: 100%;
+    min-height: 100vh;
+    color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.wc-vision__header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 30vh;
+    padding: 1rem 4rem;
+    background-color: var(--primary-color);
+    background: url('../../assets/matches-bg.jpg') no-repeat;
+    background-size: cover;
+}
+
+.wc-profile__section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 6rem 1rem;
+    
+}
+
+.wc-facts-__list {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+
+.wc-facts-list__item {
+    width: 20rem;
+    padding: 1.5rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-self: stretch;
+    text-align: center;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 19% 81% 15% 85% / 100% 0% 100% 0% ;
+}
+
+.wc-facts-list__item > * {
+    font-family: 'Qatar2022 Arabic', sans-serif;
+}
+
+.wc-facts-list__item h3 {
+    margin-bottom: 0px;
+    font-size: 1.2em;
+}

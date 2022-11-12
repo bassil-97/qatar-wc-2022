@@ -39,8 +39,13 @@ export default function Navbar() {
                 Stadiums
               </Link>
             </li>
+            <li className="nav-item">
+              <Link to="/vision" className="nav-link">
+                vision
+              </Link>
+            </li>
           </ul>
-          <button type="button" className="btn primary-btn ms-5">
+          <button type="button" className="btn primary-btn">
             Sign up
           </button>
         </div>

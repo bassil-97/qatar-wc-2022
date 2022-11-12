@@ -9,6 +9,7 @@ const HomePage = React.lazy(() => import("./pages/Home/Home"));
 const GroupsPage = React.lazy(() => import("./pages/Groups/Groups"));
 const MatchesPage = React.lazy(() => import("./pages/Matches/Matches"));
 const StadiumsPage = React.lazy(() => import("./pages/Stadiums/Stadiums"));
+const VisionPage = React.lazy(() => import("./pages/Vision/Vision"));
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/groups" element={<GroupsPage />} />
           <Route path="/fixtures" element={<MatchesPage />} />
           <Route path="/stadiums" element={<StadiumsPage />} />
+          <Route path="/vision" element={<VisionPage />} />
         </Routes>
       </Suspense>
     </div>

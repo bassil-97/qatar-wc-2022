@@ -1,0 +1,37 @@
+[
+    {
+        "id": "1",
+        "title": "teams playing",
+        "count": "32"
+    },
+    {
+        "id": "2",
+        "title": "stadiums will be used",
+        "count": "8"
+    },
+    {
+        "id": "3",
+        "title": "fans will attend matches per day",
+        "count": "200K"
+    },
+    {
+        "id": "4",
+        "title": "matches over",
+        "count": "64"
+    },
+    {
+        "id": "5",
+        "title": "matches a day during the group stage",
+        "count": "4"
+    },
+    {
+        "id": "6",
+        "title": "(USD) budgeted in total for tournament infrastructure",
+        "count": "~8BN"
+    },
+    {
+        "id": "7",
+        "title": "over one million people are expected to visit Qatar during the WC",
+        "count": "+1m"
+    }
+]

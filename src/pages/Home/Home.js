@@ -20,7 +20,7 @@ export default function Home() {
         />
         <div className="home-page_body">
           <div className="row">
-            <div className="col-lg-6 col-sm-12 d-flex align-items-center justify-content-center">
+            <div className="col-lg-6 col-sm-12 d-flex align-items-center justify-content-center home-text-col">
               <div className="home-page__text">
                 <h6 className="fw-bold w-100">November 21 - December 18</h6>
                 <h1>Feel the Moment of Winnig</h1>
